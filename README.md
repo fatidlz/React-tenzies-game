@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+#Tenzies Game React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple Tenzies Game built with React. Roll the dice until all dice show the same value. Users can click each die to freeze it at its current value between rolls. The game features a "New Game" button to reset and start a new game.
 
-## Available Scripts
+##Table of Contents
+Features
+Demo
+Installation
+Usage
+Contributing
+License
 
-In the project directory, you can run:
+##Features
+Roll the dice to get a random value.
+Click on each die to freeze it at its current value between rolls.
+Win the game by rolling until all dice show the same value.
+"New Game" button to reset and start a new game.
+Confetti animation upon winning the game.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##Demo
+Provide a link to a live demo of your project or a set of screenshots showcasing its features.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##Installation
+1.Clone the repository:
+git clone https://github.com/fatidlz/React-tenzies-game.git
 
-### `npm test`
+2.Navigate to the project directory:
+cd tenzies-game
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.Install dependencies:
+npm install
 
-### `npm run build`
+##Usage
+1.Start the development server:
+npm start
+2.Open your browser and go to http://localhost:3000.
+3.Play the Tenzies Game by rolling the dice and trying to get all dice to show the same value.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Contributing
+If you would like to contribute to this project, please follow the guidelines in CONTRIBUTING.md.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##License
+This project is licensed under the MIT License.
